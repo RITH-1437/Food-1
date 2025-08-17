@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Sakura Japanese Fine Dining</title>
+    <link rel="stylesheet" href="../CSS/order.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="../images/logo-sakura3.png" alt="Sakura Logo">
+                <h2>Sakura</h2>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../HTML/about.html">About</a></li>
+                    <li><a href="../HTML/menu.html">Menu</a></li>
+                    <li><a href="../HTML/order.html" class="active">Order</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <h1>Place Your Order</h1>
+            <p>Select your favorite dishes and enjoy Savora's exceptional cuisine in<br>the comfort of your home.</p>
+        </main>
+
+        <div class="order-section">
+            <div class="menu-section">
+                <h2>Select Dishes</h2>
+                <div class="dishes-list">
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Grilled Wagyu Steak</h3>
+                            <span class="price">$45</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Pan-Seared Halibut</h3>
+                            <span class="price">$38</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Duck Confit</h3>
+                            <span class="price">$42</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Truffle Pasta</h3>
+                            <span class="price">$32</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Oysters Rockefeller</h3>
+                            <span class="price">$24</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Tuna Tartare</h3>
+                            <span class="price">$22</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Chocolate Soufflé</h3>
+                            <span class="price">$18</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-item">
+                        <div class="dish-info">
+                            <h3>Crème Brûlée</h3>
+                            <span class="price">$16</span>
+                        </div>
+                        <button class="add-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <div class="cart-section">
+                    <h3>🛒 Your Order</h3>
+                    <div class="cart-items">
+                        <p class="empty-cart">Your cart is empty</p>
+                    </div>
+                </div>
+
+                <div class="delivery-info">
+                    <h3>Delivery Information</h3>
+                    <form class="delivery-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number *</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailAddress">Email Address *</label>
+                            <input type="email" id="emailAddress" name="emailAddress" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryAddress">Delivery Address *</label>
+                            <textarea id="deliveryAddress" name="deliveryAddress" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="specialRequests">Special Requests</label>
+                            <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Any special dietary requirements or instructions..."></textarea>
+                        </div>
+                        <button type="submit" class="place-order-btn">Place Order - $0.00</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Sakura</h2>
+                <p>Experience exceptional fine dining with fresh<br>ingredients and expert craftsmanship.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Contact</h2>
+                <p>🏢 123 Fine Dining Street, Culinary District</p>
+                <p>📞 (555) 123-4567</p>
+                <p>📧 info@sakura.com</p>
+            </div>
+            <div class="footer-section">
+                <h2>Hours</h2>
+                <p>Mon-Thu: 5:00 PM - 10:00 PM</p>
+                <p>Fri-Sat: 5:00 PM - 11:00 PM</p>
+                <p>Sunday: 4:00 PM - 9:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Sakura Restaurant. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="../order.js"></script>
+</body>
+</html>
